@@ -8,7 +8,7 @@
     "url": "https://github.com/azu/gh-pages-deploy-cmd.git"
   },
   "scripts": {
-    "deploy": "gh-pages-deploy-cmd"
+    "deploy": "gh-pages-deploy-cmd dist/**/*"
   },
   "author": "azu",
   "license": "MIT",
