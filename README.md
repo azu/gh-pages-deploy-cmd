@@ -8,7 +8,7 @@ This npm modules help to deploy to gh-pages.
 
 ## Usage
 
-1. add "gh-pages-deploy-cmd" to npm run-script.
+### 1. Add "gh-pages-deploy-cmd" to npm run-script.
 
 ```
   "scripts": {
@@ -16,12 +16,18 @@ This npm modules help to deploy to gh-pages.
   },
 ```
 
-2. add `GH_TOKEN` to .travis.yml
+### 2. Add `GH_TOKEN` to `.travis.yml`
+
+See [travis-ci/travis.rb](https://github.com/travis-ci/travis.rb "travis-ci/travis.rb")
 
 ```sh
 gem install travis
 travis encrypt GH_TOKEN=<your github personal token> --add
 ```
+
+### 3. git push
+
+Automatically deploy to `gh-pages` :tada:
 
 ## Contributing
 
