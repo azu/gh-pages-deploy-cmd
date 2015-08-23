@@ -31,6 +31,7 @@
     "cli"
   ],
   "dependencies": {
+    "command-promise": "^2.0.0",
     "exists-sync": "0.0.3",
     "gulp": "^3.9.0",
     "gulp-exclude-gitignore": "^1.0.0",
