@@ -13,9 +13,9 @@
   },
   "version": "1.0.0",
   "description": "deploy to gh-pages commands.",
-  "main": "index.js",
+  "main": "lib/gh-pages-deploy.js",
   "bin": {
-    "bin/cmd.js": "gh-pages-deploy-cmd"
+    "gh-pages-deploy-cmd": "./bin/cmd.js"
   },
   "directories": {
     "test": "test"
@@ -31,8 +31,12 @@
     "cli"
   ],
   "dependencies": {
+    "exists-sync": "0.0.3",
     "gulp": "^3.9.0",
+    "gulp-exclude-gitignore": "^1.0.0",
     "gulp-gh-pages": "^0.5.2",
+    "gulp-plumber": "^1.0.1",
+    "gulp-util": "^3.0.6",
     "object-assign": "^4.0.1",
     "parse-github-url": "^0.1.1"
   },
